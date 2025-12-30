@@ -1,9 +1,3 @@
-
----
-
-### File: `exercises/SD-E2-benchmark-and-optimize/README.md` (REPLACE)
-
-```markdown
 # SD-E2: Benchmark and Optimise
 
 **Timetable slot:** Software Design **E2** (60 minutes)
