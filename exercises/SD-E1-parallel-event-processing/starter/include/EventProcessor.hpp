@@ -1,6 +1,8 @@
 #pragma once
 
 #include "Event.hpp"
+
+#include <cstddef>
 #include <vector>
 
 namespace csc2026 {
@@ -17,7 +19,7 @@ public:
     int totalTracks() const { return m_totalTracks; }
     double totalEnergy() const { return m_totalEnergy; }
 
-    static std::vector<Event> generateSampleEvents(size_t nEvents);
+    static std::vector<Event> generateSampleEvents(std::size_t nEvents);
 
 private:
     int m_totalTracks{0};
@@ -25,4 +27,3 @@ private:
 };
 
 } // namespace csc2026
-
