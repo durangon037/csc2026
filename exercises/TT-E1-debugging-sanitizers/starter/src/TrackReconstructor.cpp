@@ -11,7 +11,7 @@ void TrackReconstructor::addHit(const Hit& hit) { m_hits.push_back(hit); }
 std::vector<Track> TrackReconstructor::reconstruct() {
     std::vector<Track> tracks;
 
-    // BUG 1: Memory Leak SOLVED
+    // BUG 1: Memory Leak SOLVED!
     // Allocate a temporary buffer and forget to delete it.
     Hit* hitBuffer = new Hit[m_hits.size()];
 
